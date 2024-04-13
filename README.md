@@ -38,4 +38,3 @@ File contains 14 columns and 5000 rows. Description of the columns are as follow
 8. Model building using LogisticRegression
 9. Model Evaluation
 
-## Important Terminologies
