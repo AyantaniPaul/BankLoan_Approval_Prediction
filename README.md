@@ -40,4 +40,11 @@ File contains 14 columns and 5000 rows. Description of the columns are as follow
 ## **`Terminologies`** 
 1. A **`heatmap`** depicts values for a main variable of interest across two axis variables as a grid of colored squares. The axis variables are divided into ranges like a bar chart or histogram, and each cell’s color indicates the value of the main variable in the corresponding cell range. They are used to show relationships between two variables, one plotted on each axis. By observing how cell colors change across each axis, we can observe if there are any patterns in value for one or both variables.
 2. **`StandardScaler`** removes the mean and scales each feature/variable to unit variance. This operation is performed feature-wise in an independent way. StandardScaler can be influenced by outliers (if they exist in the dataset) since it involves the estimation of the empirical mean and standard deviation of each feature. In Machine Learning, StandardScaler is used to resize the distribution of values so that the mean of the observed values is 0 and the standard deviation is 1.
-3. **`Logistic regression`** is a supervised machine learning algorithm used for classification tasks where the goal is to predict the probability that an instance belongs to a given class or not. 
+3. **`Logistic regression`** is a supervised machine learning algorithm used for classification tasks where the goal is to predict the probability that an instance belongs to a given class or not. It uses the Logistic curve given by -\
+$\sigma$ (x)=$`\frac{1}{1+e^x}`$.
+4. **`Confusion Matrix`** is a matrix that summarizes the performance of a machine learning model on a set of test data. It is a means of displaying the number of accurate and inaccurate instances based on the model’s predictions. It is often used to measure the performance of classification models, which aim to predict a categorical label for each input instance. The matrix displays the number of instances produced by the model on the test data.
+   - True positives (TP): occur when the model accurately predicts a positive data point.
+   - True negatives (TN): occur when the model accurately predicts a negative data point.
+   - False positives (FP): occur when the model predicts a positive data point incorrectly.
+   - False negatives (FN): occur when the model mispredicts a negative data point.\
+
