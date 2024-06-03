@@ -1,6 +1,8 @@
 # **BankLoan_Approval_Prediction**
 ## **`Goal`**
 The aim of this project is to predict the likelihood of a customer getting approved for a bank loan. Several classification tools like Logistic Regression, K-Nearest Neighbors Algorithm, Decision Tree Classifier and Random Forrest Classifier are used to fit to the BankLoan dataset which obtained from Kaggle. Then we compare the models and find out which model fits the data in the best way.
+
+Source - https://www.kaggle.com/datasets/vikramamin/bank-loan-approval-lr-dt-rf-and-auc
 ## **`Business Problem`**
 This case is about a bank (Thera Bank) whose management wants to explore ways of converting its liability customers to personal loan customers (while retaining them as depositors). A campaign that the bank ran last year for liability customers showed a healthy conversion rate of over 9% success.This has encouraged the retail marketing department to devise campaigns with better target marketing to increase the success ratio with minimal budget.
 ## **`Data`**
